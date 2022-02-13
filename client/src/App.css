@@ -1,0 +1,201 @@
+
+@media(max-width:1998px){
+  .sidenav{
+    transition: 0.1s;
+    width: 15rem;
+  }
+  .profile_in_nav{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+  }
+}
+@media(max-width:998px){
+  .sidenav{
+    width: 18rem;
+  }
+  .profile_in_nav{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+  html{
+    font-size: 70%;
+  }
+}
+@media(max-width:768px){
+  .sidenav{
+    width: 20rem;
+  }
+  .profile_in_nav{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+  
+  html{
+    font-size: 50%;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ /* edited from here  */
+ a{
+   color: black !important;
+ }
+ /* Logo */
+ @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.brand-logo,.auth-card h2{
+  font-family: 'Grand Hotel', cursive;
+
+}
+
+.myCard{
+  margin-top: 6rem;
+}
+.auth-card{
+  padding: 2rem;
+  text-align: center;
+  max-width: 30rem;
+  margin: 1rem auto;
+  border-radius: 5%;
+
+}
+
+.gallary{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+}
+
+/* .home{
+  display: flex;
+  float: left;
+} */
+
+.home-card{
+  width: 80%;
+  padding: 2rem;
+  border: 0.2 rem solid ;
+  height: auto;
+  margin: 2rem auto;
+}
+.blog_email{
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.blog_data{
+  /* width: 80%; */
+  height: 25rem;
+  
+}
+.blog_body{
+  background-color: rgb(184, 181, 189);
+  padding: 1rem;
+}
+#toast-container{
+  top:3rem;
+  right: 2rem;
+  left: auto;
+  color: red;
+}
+.material-icons:hover{
+  cursor: pointer;
+}
+.list-item:hover{
+  color: rgb(211, 205, 205);
+  background-color: white;
+  
+}
+.user_pic{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.card-image{
+  width: 23rem;
+  height: 30rem ;
+}
+.allPost{
+  width: 20rem;
+  height: 25rem;
+  display: flex;
+  float: left;
+  /* margin: 1.2rem; */
+}
+.profile{
+  maxWidth:"40rem";
+   margin:"0px auto";
+}
+.profile_content{
+  display:flex;
+  justify-content:space-around;
+  margin:1rem 0px;
+  border-bottom:1px solid gray;
+}
+.profile_pic{
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.footer-heading{
+  /* display: flex; */
+  align-items: center;
+  height: auto;
+
+}
+.footer{
+  /* border-top: 1px solid; */
+  /* margin-top: 2rem; */
+  color: #000000;
+  padding: 2rem 5rem;
+  width: auto;
+  height: auto;
+  /* background-color: rgb(129, 121, 202); */
+  /* align-items: center; */
+}
+.btn{
+  border-radius: 30px;
+}
