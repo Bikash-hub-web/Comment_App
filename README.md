@@ -9,7 +9,7 @@ open client folder in terminal
 
 run command " npm install "
 
-open zoho app in terminal
+open zoho folder in terminal
 
 run command " npm install "
 
